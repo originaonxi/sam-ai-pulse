@@ -425,10 +425,10 @@ def at_upsert(tid: str, records: list[dict]) -> int:
     done = 0
     for i in range(0, len(records), 10):
         batch = records[i:i + 10]
-        r = requests.post(f"https://api.airtable.com/v0/{BASE_ID}/{tid}",
-                          headers=AT_HDR,
-                          json={"performUpsert": {"fieldsToMergeOn": ["Canonical URL"]},
-                                "typecast": True, "records": batch}, timeout=40)
+        r = requests.patch(f"https://api.airtable.com/v0/{BASE_ID}/{tid}",
+                           headers=AT_HDR,
+                           json={"performUpsert": {"fieldsToMergeOn": ["Canonical URL"]},
+                                 "typecast": True, "records": batch}, timeout=40)
         if r.status_code != 200:
             print(f"[pulse] airtable {tid} err {r.status_code}: {r.text[:200]}")
             continue
