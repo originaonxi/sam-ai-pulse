@@ -63,10 +63,18 @@ TOTAL = int(os.environ.get("PULSE_TOTAL", "10"))
 QUOTA = {"paper": 4, "repo": 3, "model": 2, "news": 1}
 HDR = {"User-Agent": "sam-ai-pulse/1.0"}
 AI_WORDS = w = (
-    "llm|language model|agent|agentic|reasoning|transformer|diffusion|multimodal|mcp\\b|rag\\b|"
-    "retrieval|fine.?tun|inference|robot|benchmark|alignment|quantiz|vision.?language|diffusion|"
-    "reinforcement|embedding|grpo|rlhf|openai|anthropic|claude|gemini|qwen|llama|mistral|deepseek|kimi|gpt"
+    "agi\\b|llm|language model|agent|agentic|agi|autonomous|swarm|multi.?agent|reasoning|transformer|diffusion|multimodal|mcp\\b|rag\\b|"
+    "retrieval|fine.?tun|inference|robot|benchmark|alignment|quantiz|vision.?language|"
+    "reinforcement|embedding|grpo|rlhf|openai|anthropic|claude|gemini|qwen|llama|mistral|deepseek|kimi|gpt|"
+    "computer.?use|browser.?use|deep.?research|tool.?use|tool.?call|function.?call|workflow|orchestrat|"
+    "gtm|go.?to.?market|sales|outreach|revenue|automation|voice.?agent|coding.?agent|swe.?bench"
 )
+FRONTIER_ORGS = {
+    "openai", "anthropics", "anthropic", "google-deepmind", "deepmind", "meta-llama", "facebookresearch",
+    "mistralai", "qwenlm", "qwen", "deepseek-ai", "nvidia", "xai-org", "moonshotai", "google",
+    "microsoft", "huggingface", "langchain-ai", "crewaiinc", "pydantic", "ollama", "vllm-project",
+    "modelcontextprotocol", "bytedance", "alibaba", "stanfordnlp", "allenai", "eleutherai",
+}
 AI_RE = re.compile(AI_WORDS, re.I)
 
 
@@ -160,7 +168,8 @@ def src_github_search() -> list[dict]:
         return []
     out = []
     since = (dt.date.today() - dt.timedelta(days=10)).isoformat()
-    for q in ("topic:llm", "topic:ai-agents", "topic:mcp"):
+    for q in ("topic:llm", "topic:ai-agents", "topic:mcp", "topic:agentic",
+              "topic:computer-use", "topic:coding-agent", "topic:agi"):
         try:
             r = requests.get(
                 "https://api.github.com/search/repositories",
@@ -223,12 +232,14 @@ def src_hn() -> list[dict]:
 # ── SCORE + PICK ────────────────────────────────────────────────────────────
 def score(c: dict) -> float:
     boost = len(AI_RE.findall(f"{c['title']} {c['summary']} {c['topics']}")) * 3
+    org = c["title"].split("/")[0].lower() if c["kind"] in ("repo", "model") and "/" in c["title"] else ""
+    frontier_bonus = 25 if org in FRONTIER_ORGS else 0
     if c["kind"] == "paper":
         return (c.get("likes", 0) * 6) + boost + 15
     if c["kind"] == "repo":
-        return (c.get("stars_today", 0) * 2) + (min(c.get("stars", 0), 50000) / 250) + boost + 10
+        return (c.get("stars_today", 0) * 2) + (min(c.get("stars", 0), 50000) / 250) + boost + 10 + frontier_bonus
     if c["kind"] == "model":
-        return (c.get("likes", 0) / 8) + boost + 12
+        return (c.get("likes", 0) / 8) + boost + 12 + frontier_bonus
     return c.get("likes", 0) / 4 + boost
 
 
@@ -295,17 +306,19 @@ def gemini(system: str, user: str, max_tokens: int = 4096) -> str:
     raise RuntimeError(f"all gemini models failed: {last_exc}")
 
 
-STORY_SYS = """You write "SAM AI Pulse" — a daily 10-item AI briefing for a smart NON-specialist founder.
-For each item return a mini story. Voice: a brilliant friend explaining over coffee. No hype words (revolutionary, game-changing, groundbreaking).
+STORY_SYS = """You write "SAM AI Pulse" — a daily 10-item AI briefing for a smart founder who is NOT an ML engineer.
+Your lens: AGI progress, agentic systems (agents, tool use, MCP, computer use, autonomous workflows), frontier & open labs (OpenAI, Anthropic, DeepMind, Meta, xAI, Mistral, Qwen, NVIDIA), GTM/business-impact tech, and benchmarks that actually matter.
+Voice: a brilliant friend over coffee. No hype words (revolutionary, game-changing, groundbreaking). No dry abstract-speak.
 Fields per item:
 - "n": item number (must echo input)
-- "hook": ONE sentence, max 18 words — the surprising or exciting thing.
-- "story": 3-4 sentences in plain English — what it is, what problem it solves, why a layperson should care. Name the concrete technique/benchmark. No jargon without a gloss.
-- "signal": ONE sentence — the traction fact (stars/upvotes/downloads/points) and what that signals.
+- "hook": ONE sentence, max 16 words — the single most exciting thing, zero jargon.
+- "story": 3-4 sentences, plain English for a layman: what this thing IS, what pain it kills, and why it matters for building AI products or agentic systems today. Name the technique or benchmark. Gloss every technical term in plain words.
+- "example": 2-3 sentences — a concrete "make it live TODAY" use case: exactly what a builder can do right now with it (clone + one command, one API call, or the specific workflow it unlocks, e.g. "pip install X, point it at your docs, and you have a working RAG chatbot in 20 lines"). Be specific and actionable, never abstract.
+- "signal": ONE sentence — the traction fact (stars/upvotes/downloads) and what it says about where the field is heading.
 Return ONLY a JSON array of objects, no markdown fences."""
 
 INTRO_SYS = """You are the editor of "SAM AI Pulse". Given today's 10 items, write 2 punchy sentences (max 45 words total):
-what the AI frontier actually did today and the one thread connecting the day. No hype. Plain English."""
+what the AGI/agentic frontier actually moved today and the one thread connecting the day. For a smart non-engineer. No hype."""
 
 
 def write_stories(items: list[dict]) -> None:
@@ -336,6 +349,7 @@ def write_stories(items: list[dict]) -> None:
             ok += 1
         c["hook"] = s.get("hook") or c["title"][:110]
         c["story"] = s.get("story") or (c["summary"][:350] + ("…" if len(c["summary"]) > 350 else ""))
+        c["example"] = s.get("example") or ""
         c["signal"] = s.get("signal") or ""
     print(f"[pulse] stories model-written: {ok}/{len(items)}")
 
@@ -365,8 +379,19 @@ def item_html(c: dict, n: int) -> str:
   <a href="{c['url']}" style="color:#e2e8f0;font-size:17px;font-weight:700;text-decoration:none;line-height:1.35;">{html.escape(c['title'])}</a>
   <p style="color:#8b95a7;font-size:13.5px;font-style:italic;margin:8px 0 4px;">{html.escape(c['hook'])}</p>
   <p style="color:#cbd5e1;font-size:14.5px;line-height:1.75;margin:8px 0;">{html.escape(c['story'])}</p>
+  {_example_html(c)}
   <p style="color:#64748b;font-size:12.5px;margin:6px 0 0;"><strong style="color:#94a3b8;">Signal:</strong> {html.escape(c['signal'])}{stars}{likes}</p>
 </div>"""
+
+
+def _example_html(c: dict) -> str:
+    ex = (c.get("example") or "").strip()
+    if not ex:
+        return ""
+    return (f'<div style="margin:10px 0 2px;padding:12px 14px;background:#0f231b;'
+            f'border:1px solid #1e4d38;border-radius:9px;">'
+            f'<span style="color:#4ade80;font-size:11px;font-weight:800;letter-spacing:.1em;">⚡ MAKE IT LIVE TODAY</span>'
+            f'<p style="color:#a7f3d0;font-size:13.5px;line-height:1.65;margin:6px 0 0;">{html.escape(ex)}</p></div>')
 
 
 def build_html(issue: int, items: list[dict], intro: str, scanned: int) -> str:
