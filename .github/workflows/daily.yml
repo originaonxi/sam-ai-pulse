@@ -1,0 +1,35 @@
+name: SAM AI Pulse
+
+on:
+  schedule:
+    - cron: '30 6 * * *'   # 06:30 UTC daily
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - name: Run pulse
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          RAG_AIRTABLE_API_KEY: ${{ secrets.RAG_AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python pulse.py --send
+      - name: Persist state
+        run: |
+          git config user.name "sam-pulse-bot"
+          git config user.email "bot@sam-ai-pulse.dev"
+          git add state.json || true
+          git diff --cached --quiet || git commit -m "state: issue bump [skip ci]" && git push || true

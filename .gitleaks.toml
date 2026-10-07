@@ -1,0 +1,10 @@
+title = "sam-ai-pulse gitleaks config"
+
+# Airtable base/table IDs are documented as non-secret (see rag-knowledge-base skill:
+# "all IDs are non-secret"). Real secrets are never committed — they live in
+# GitHub Actions secrets and local env only.
+[allowlist]
+description = "Non-secret Airtable base/table IDs and public API hosts"
+regexTarget = "secret"
+regexes = ['''(app|tbl)[A-Za-z0-9]{14}''']
+paths = ['''pulse\.py''', '''README\.md''']
