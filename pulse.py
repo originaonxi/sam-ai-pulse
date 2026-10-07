@@ -385,13 +385,39 @@ def build_html(issue: int, items: list[dict], intro: str, scanned: int) -> str:
 
 
 def send_mail(html_body: str, subject: str) -> None:
+    """Gmail SMTP with transport fallback. GitHub-hosted runners often get their
+    connection dropped mid-AUTH on 587/STARTTLS (Google flags datacenter IPs);
+    465 direct SSL succeeds where STARTTLS is reset."""
     msg = MIMEMultipart("alternative")
     msg["From"], msg["To"], msg["Subject"] = GMAIL_USER, EMAIL_TO, subject
     msg.attach(MIMEText(html_body, "html", "utf-8"))
-    with smtplib.SMTP("smtp.gmail.com", 587, timeout=40) as s:
-        s.starttls()
-        s.login(GMAIL_USER, GMAIL_PASS)
-        s.sendmail(GMAIL_USER, EMAIL_TO, msg.as_string())
+    raw = msg.as_string()
+    last: Exception | None = None
+
+    def _ssl465():
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
+            s.login(GMAIL_USER, GMAIL_PASS)
+            s.sendmail(GMAIL_USER, EMAIL_TO, raw)
+
+    def _tls587():
+        with smtplib.SMTP("smtp.gmail.com", 587, timeout=60) as s:
+            s.ehlo()
+            s.starttls()
+            s.ehlo()
+            s.login(GMAIL_USER, GMAIL_PASS)
+            s.sendmail(GMAIL_USER, EMAIL_TO, raw)
+
+    for name, fn in (("ssl/465", _ssl465), ("starttls/587", _tls587),
+                     ("ssl/465", _ssl465), ("starttls/587", _tls587)):
+        try:
+            fn()
+            print(f"[pulse] smtp transport ok: {name}")
+            return
+        except Exception as exc:
+            last = exc
+            print(f"[pulse] smtp {name} failed: {type(exc).__name__}: {exc}")
+            time.sleep(5)
+    raise RuntimeError(f"gmail smtp failed on all transports: {last}")
 
 
 # ── AIRTABLE ────────────────────────────────────────────────────────────────
