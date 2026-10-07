@@ -15,6 +15,7 @@ import os
 import re
 import smtplib
 import sys
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 from email.mime.multipart import MIMEMultipart
@@ -29,7 +30,7 @@ TODAY = dt.date.today().isoformat()
 
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
 
 GMAIL_USER = os.environ.get("GMAIL_USER", "").strip()
 GMAIL_PASS = os.environ.get("GMAIL_APP_PASSWORD", "").replace(" ", "")
@@ -256,16 +257,42 @@ def pick10(cands: list[dict]) -> list[dict]:
 
 
 # ── GEMINI ──────────────────────────────────────────────────────────────────
+# Model chain is ground-truthed against the key's own /v1beta/models list
+# (gemini-3.8-flash was a bogus redirect string and is NOT offered -> 503s).
+_MODEL_CHAIN = [m for m in (
+    os.environ.get("GEMINI_MODEL", "").strip(),
+    "gemini-flash-latest",
+    "gemini-3.1-flash-lite",
+    "gemini-2.5-flash",
+) if m]
+
+
 def gemini(system: str, user: str, max_tokens: int = 4096) -> str:
-    r = requests.post(GEMINI_URL,
-                      headers={"Authorization": f"Bearer {GEMINI_KEY}", "Content-Type": "application/json"},
-                      json={"model": GEMINI_MODEL, "max_tokens": max_tokens,
-                            "messages": [{"role": "system", "content": system},
-                                         {"role": "user", "content": user}]},
-                      timeout=90)
-    r.raise_for_status()
-    data = r.json()
-    return data["choices"][0]["message"]["content"] or ""
+    """Rotate through the key-offered model chain on 503/timeout/empty content.
+    Free tier occasionally 503s under load; short jitter + model hop absorbs it."""
+    payload_msgs = [{"role": "system", "content": system},
+                    {"role": "user", "content": user}]
+    last_exc: Exception | None = None
+    for model in _MODEL_CHAIN:
+        for attempt in range(2):
+            try:
+                r = requests.post(
+                    GEMINI_URL,
+                    headers={"Authorization": f"Bearer {GEMINI_KEY}", "Content-Type": "application/json"},
+                    json={"model": model, "max_tokens": max_tokens, "messages": payload_msgs},
+                    timeout=(20, 150))
+                r.raise_for_status()
+                data = r.json()
+                content = (data["choices"][0]["message"].get("content") or "").strip()
+                if content:
+                    if model != _MODEL_CHAIN[0]:
+                        print(f"[pulse] note: stories via fallback model {model}")
+                    return content
+                last_exc = RuntimeError(f"{model}: empty content (finish={data['choices'][0].get('finish_reason')})")
+            except Exception as exc:  # 503 / timeout / transient
+                last_exc = exc
+            time.sleep(4 + attempt * 6)
+    raise RuntimeError(f"all gemini models failed: {last_exc}")
 
 
 STORY_SYS = """You write "SAM AI Pulse" — a daily 10-item AI briefing for a smart NON-specialist founder.
