@@ -502,12 +502,18 @@ def main() -> int:
     issue = int(st.get("issue", 0)) + 1
     subject = f"SAM AI Pulse #{issue:03d} — {dt.date.today().strftime('%b %d')} | {len(items)} picks from {len(cands)}"
     if "--send" in sys.argv:
-        send_mail(build_html(issue, items, intro, len(cands)), subject)
+        html_out = build_html(issue, items, intro, len(cands))
+        print("===EMAIL_HTML_START===")
+        print(html_out)
+        print("===EMAIL_HTML_END===")
+        rag_n, pap_n, gh_n = push_airtable(items)
+        print(f"[pulse] AIRTABLE_UPSERT rag={rag_n} papers={pap_n} github={gh_n}")
+        send_mail(html_out, subject)
         print(f"[pulse] EMAIL_SENT to={EMAIL_TO} subject=\"{subject}\"")
     else:
         print("[pulse] dry run: email not sent")
-    rag_n, pap_n, gh_n = push_airtable(items)
-    print(f"[pulse] AIRTABLE_UPSERT rag={rag_n} papers={pap_n} github={gh_n}")
+        rag_n, pap_n, gh_n = push_airtable(items)
+        print(f"[pulse] AIRTABLE_UPSERT rag={rag_n} papers={pap_n} github={gh_n}")
 
     st = {"issue": issue, "last_run": TODAY,
           "sent_canon": ((st.get("sent_canon") or []) + [c["canon"].rstrip("/").lower() for c in items])[-150:]}
