@@ -1,6 +1,6 @@
 {
- "issue": 1,
- "last_run": "2026-10-07",
+ "issue": 2,
+ "last_run": "2026-10-08",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -11,6 +11,16 @@
   "https://github.com/justxor/claude-code-pro-course",
   "https://huggingface.co/qwen/qwen3.8-27b",
   "https://huggingface.co/lightricks/ltx-2.5",
-  "https://huggingface.co/qwen/qwen3.8-flash-next"
+  "https://huggingface.co/qwen/qwen3.8-flash-next",
+  "https://arxiv.org/abs/2610.06293",
+  "https://arxiv.org/abs/2610.10409",
+  "https://arxiv.org/abs/2610.09228",
+  "https://arxiv.org/abs/2610.10388",
+  "https://github.com/feder-cr/invisible_playwright_mcp",
+  "https://github.com/rikinshah787/dotpals",
+  "https://github.com/hamzafer/claude-code-mods",
+  "https://huggingface.co/convaiinnovations/laya",
+  "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash",
+  "https://huggingface.co/abenzerps/qwen-image-2.1-uncensored-gguf"
  ]
 }
