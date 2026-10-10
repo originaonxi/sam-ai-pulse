@@ -1,6 +1,6 @@
 {
- "issue": 3,
- "last_run": "2026-10-09",
+ "issue": 4,
+ "last_run": "2026-10-10",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -31,6 +31,16 @@
   "https://github.com/openqodex/openqodex",
   "https://huggingface.co/autotrust/jev-27b-vl",
   "https://huggingface.co/qwen/qwen-image-2.1",
-  "https://huggingface.co/prism-ml/ternary-bonsai-2-27b-gguf"
+  "https://huggingface.co/prism-ml/ternary-bonsai-2-27b-gguf",
+  "https://arxiv.org/abs/2610.12458",
+  "https://arxiv.org/abs/2610.09146",
+  "https://arxiv.org/abs/2609.31507",
+  "https://arxiv.org/abs/2609.33987",
+  "https://github.com/harvil1/codeagent",
+  "https://github.com/strands-agents/box",
+  "https://github.com/joeseesun/qiaomu-codex-imagegen",
+  "https://huggingface.co/unsloth/qwen3.8-27b-gguf",
+  "https://huggingface.co/ista-daslab/qwen3.8-27b-gsq-rco-gguf",
+  "https://huggingface.co/cloudflare/clef"
  ]
 }
