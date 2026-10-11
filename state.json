@@ -1,6 +1,6 @@
 {
- "issue": 4,
- "last_run": "2026-10-10",
+ "issue": 5,
+ "last_run": "2026-10-11",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -41,6 +41,16 @@
   "https://github.com/joeseesun/qiaomu-codex-imagegen",
   "https://huggingface.co/unsloth/qwen3.8-27b-gguf",
   "https://huggingface.co/ista-daslab/qwen3.8-27b-gsq-rco-gguf",
-  "https://huggingface.co/cloudflare/clef"
+  "https://huggingface.co/cloudflare/clef",
+  "https://arxiv.org/abs/2610.11794",
+  "https://arxiv.org/abs/2610.12360",
+  "https://arxiv.org/abs/2610.08585",
+  "https://arxiv.org/abs/2610.08927",
+  "https://github.com/aindeev/agent-chrome-relay",
+  "https://github.com/gtkottman/mortiflix-oss",
+  "https://github.com/fayazara/robot-heads",
+  "https://huggingface.co/facebook/sam3",
+  "https://huggingface.co/google/embeddinggemma-2",
+  "https://huggingface.co/davidau/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf"
  ]
 }
