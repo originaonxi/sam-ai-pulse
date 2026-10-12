@@ -1,6 +1,6 @@
 {
- "issue": 5,
- "last_run": "2026-10-11",
+ "issue": 6,
+ "last_run": "2026-10-12",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -51,6 +51,16 @@
   "https://github.com/fayazara/robot-heads",
   "https://huggingface.co/facebook/sam3",
   "https://huggingface.co/google/embeddinggemma-2",
-  "https://huggingface.co/davidau/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf"
+  "https://huggingface.co/davidau/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf",
+  "https://arxiv.org/abs/2609.39566",
+  "https://arxiv.org/abs/2610.13316",
+  "https://arxiv.org/abs/2610.12572",
+  "https://arxiv.org/abs/2610.12569",
+  "https://github.com/nexilume-ai/nexus-cloud",
+  "https://github.com/nousresearch/hermes-official-plugins",
+  "https://github.com/deeplethe/fde-gym",
+  "https://huggingface.co/baidu/unlimited-ocr",
+  "https://huggingface.co/abenzerps/qwen-image-2.1-uncensored-quantized",
+  "https://huggingface.co/jialinyyzz/humanizer"
  ]
 }
