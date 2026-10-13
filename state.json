@@ -1,6 +1,6 @@
 {
- "issue": 6,
- "last_run": "2026-10-12",
+ "issue": 7,
+ "last_run": "2026-10-13",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -61,6 +61,16 @@
   "https://github.com/deeplethe/fde-gym",
   "https://huggingface.co/baidu/unlimited-ocr",
   "https://huggingface.co/abenzerps/qwen-image-2.1-uncensored-quantized",
-  "https://huggingface.co/jialinyyzz/humanizer"
+  "https://huggingface.co/jialinyyzz/humanizer",
+  "https://arxiv.org/abs/2610.13361",
+  "https://arxiv.org/abs/2610.08966",
+  "https://arxiv.org/abs/2610.12453",
+  "https://arxiv.org/abs/2610.11765",
+  "https://github.com/computeruseagent/autocua",
+  "https://github.com/iamumeransari/claude-show-your-work",
+  "https://github.com/atoll92/agent-standup",
+  "https://huggingface.co/qwen/qwen-image-2.1-turbo",
+  "https://huggingface.co/aleph-alpha/kolibri-1",
+  "https://huggingface.co/orcarouter/qwen3.8-flash-next-uncensored-gguf"
  ]
 }
