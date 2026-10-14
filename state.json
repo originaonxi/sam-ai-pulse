@@ -1,6 +1,6 @@
 {
- "issue": 7,
- "last_run": "2026-10-13",
+ "issue": 8,
+ "last_run": "2026-10-14",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -71,6 +71,16 @@
   "https://github.com/atoll92/agent-standup",
   "https://huggingface.co/qwen/qwen-image-2.1-turbo",
   "https://huggingface.co/aleph-alpha/kolibri-1",
-  "https://huggingface.co/orcarouter/qwen3.8-flash-next-uncensored-gguf"
+  "https://huggingface.co/orcarouter/qwen3.8-flash-next-uncensored-gguf",
+  "https://arxiv.org/abs/2610.17953",
+  "https://arxiv.org/abs/2610.18092",
+  "https://arxiv.org/abs/2610.17656",
+  "https://arxiv.org/abs/2610.17540",
+  "https://github.com/onehumanbeing/esp32-iphone-agent",
+  "https://github.com/mw00/project-maya",
+  "https://github.com/hujjun/mcd-saver-strategist",
+  "https://huggingface.co/ista-daslab/qwen3.8-flash-next-gsq-rco-gguf",
+  "https://huggingface.co/dealignai/deepseek-v4.1-flash-uncensored-fp8",
+  "https://huggingface.co/autotrust/jev-35b"
  ]
 }
