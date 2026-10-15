@@ -1,6 +1,6 @@
 {
- "issue": 8,
- "last_run": "2026-10-14",
+ "issue": 9,
+ "last_run": "2026-10-15",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -81,6 +81,16 @@
   "https://github.com/hujjun/mcd-saver-strategist",
   "https://huggingface.co/ista-daslab/qwen3.8-flash-next-gsq-rco-gguf",
   "https://huggingface.co/dealignai/deepseek-v4.1-flash-uncensored-fp8",
-  "https://huggingface.co/autotrust/jev-35b"
+  "https://huggingface.co/autotrust/jev-35b",
+  "https://arxiv.org/abs/2610.18861",
+  "https://arxiv.org/abs/2610.19560",
+  "https://arxiv.org/abs/2610.20431",
+  "https://arxiv.org/abs/2610.19698",
+  "https://github.com/bherbruck/solidcraft",
+  "https://github.com/tony3liu/eido",
+  "https://github.com/outcrawlai/scout",
+  "https://huggingface.co/openbmb/minicpm-v-4.7-35b-a3b",
+  "https://huggingface.co/conwayresearch/underdog-saluki-27b-1.0",
+  "https://huggingface.co/atomicchat/qwen-image-2.1-turbo-uncensored-gguf"
  ]
 }
