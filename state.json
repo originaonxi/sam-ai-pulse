@@ -1,6 +1,6 @@
 {
- "issue": 10,
- "last_run": "2026-10-16",
+ "issue": 11,
+ "last_run": "2026-10-17",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -101,6 +101,16 @@
   "https://github.com/sisyphuslabs/omo-dori-mode-experimental",
   "https://huggingface.co/nerkyor/qwen3.8-27b-coder390-efficientthink-opus5.5-gpt6astra-grok4.7-dsv4pro-k3-sft-rloo-mtp-dflash2",
   "https://huggingface.co/fishaudio/drama-3",
-  "https://huggingface.co/pablodawson/minimax-h3-360-orbit-lora"
+  "https://huggingface.co/pablodawson/minimax-h3-360-orbit-lora",
+  "https://arxiv.org/abs/2610.22280",
+  "https://arxiv.org/abs/2610.22200",
+  "https://arxiv.org/abs/2610.20939",
+  "https://arxiv.org/abs/2610.15924",
+  "https://github.com/anujasid/blender-ai-mcp-addon",
+  "https://github.com/hermes-deck/hermes-deck",
+  "https://github.com/deeplethe/solid-glass",
+  "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017",
+  "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "https://huggingface.co/meta-models/muse-spark-open-816b-a42b"
  ]
 }
