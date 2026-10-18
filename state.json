@@ -1,6 +1,6 @@
 {
- "issue": 11,
- "last_run": "2026-10-17",
+ "issue": 12,
+ "last_run": "2026-10-18",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -111,6 +111,16 @@
   "https://github.com/deeplethe/solid-glass",
   "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017",
   "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-  "https://huggingface.co/meta-models/muse-spark-open-816b-a42b"
+  "https://huggingface.co/meta-models/muse-spark-open-816b-a42b",
+  "https://arxiv.org/abs/2610.16105",
+  "https://arxiv.org/abs/2610.21306",
+  "https://arxiv.org/abs/2610.22127",
+  "https://arxiv.org/abs/2610.19397",
+  "https://github.com/licincan/blender-ai-mcp-addon",
+  "https://github.com/vakandi/opencode-rust",
+  "https://github.com/leonxlnx/earshot",
+  "https://huggingface.co/nvidia/qwen3.8-flash-next-fp4-local",
+  "https://huggingface.co/liquidai/lfm2.5-24b-a2b",
+  "https://huggingface.co/openbmb/minicpm-v-4.7-1b"
  ]
 }
