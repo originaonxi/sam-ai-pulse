@@ -1,6 +1,6 @@
 {
- "issue": 14,
- "last_run": "2026-10-20",
+ "issue": 15,
+ "last_run": "2026-10-21",
  "sent_canon": [
   "https://arxiv.org/abs/2610.07767",
   "https://arxiv.org/abs/2609.39822",
@@ -141,6 +141,16 @@
   "https://github.com/kanaworksai-hue/audio-studio-mcp",
   "https://huggingface.co/mistralai/timestral-209m",
   "https://huggingface.co/nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-nvfp4",
-  "https://news.ycombinator.com/item?id=50154029"
+  "https://news.ycombinator.com/item?id=50154029",
+  "https://arxiv.org/abs/2610.28601",
+  "https://arxiv.org/abs/2610.28354",
+  "https://arxiv.org/abs/2610.28444",
+  "https://arxiv.org/abs/2610.24628",
+  "https://github.com/justxor/deepseek-local-guide-ru",
+  "https://github.com/eliasbiondo/antirion",
+  "https://github.com/zhuyansen/new-term-radar",
+  "https://huggingface.co/openmoss-team/moss-image-base",
+  "https://huggingface.co/comfy-org/moss-image",
+  "https://huggingface.co/nvidia/nvidia-nemotron-labs-dory1.0-4b-bf16"
  ]
 }
