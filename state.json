@@ -1,17 +1,7 @@
 {
- "issue": 18,
- "last_run": "2026-10-24",
+ "issue": 19,
+ "last_run": "2026-10-25",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.12458",
-  "https://arxiv.org/abs/2610.09146",
-  "https://arxiv.org/abs/2609.31507",
-  "https://arxiv.org/abs/2609.33987",
-  "https://github.com/harvil1/codeagent",
-  "https://github.com/strands-agents/box",
-  "https://github.com/joeseesun/qiaomu-codex-imagegen",
-  "https://huggingface.co/unsloth/qwen3.8-27b-gguf",
-  "https://huggingface.co/ista-daslab/qwen3.8-27b-gsq-rco-gguf",
-  "https://huggingface.co/cloudflare/clef",
   "https://arxiv.org/abs/2610.11794",
   "https://arxiv.org/abs/2610.12360",
   "https://arxiv.org/abs/2610.08585",
@@ -151,6 +141,16 @@
   "https://github.com/alextnetto/res",
   "https://huggingface.co/xhtoken/spark-x2.6-4b",
   "https://huggingface.co/minimaxai/minimax-m3.1-flash",
-  "https://huggingface.co/internscience/sage-a1.5"
+  "https://huggingface.co/internscience/sage-a1.5",
+  "https://arxiv.org/abs/2610.25100",
+  "https://arxiv.org/abs/2610.31372",
+  "https://arxiv.org/abs/2610.04184",
+  "https://arxiv.org/abs/2610.31198",
+  "https://github.com/morganlinton/beautifulrust",
+  "https://github.com/heterodoxin/abliteratedoutthebox",
+  "https://github.com/kukemc/bili-cli",
+  "https://huggingface.co/orcarouter/deepseek-v4.1-flash-1017-abliterated-gguf",
+  "https://huggingface.co/datalab-to/indra-ocr",
+  "https://huggingface.co/orcarouter/orcacyber-nano-1.0"
  ]
 }
