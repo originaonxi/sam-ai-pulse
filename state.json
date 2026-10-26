@@ -1,17 +1,7 @@
 {
- "issue": 19,
- "last_run": "2026-10-25",
+ "issue": 20,
+ "last_run": "2026-10-26",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.11794",
-  "https://arxiv.org/abs/2610.12360",
-  "https://arxiv.org/abs/2610.08585",
-  "https://arxiv.org/abs/2610.08927",
-  "https://github.com/aindeev/agent-chrome-relay",
-  "https://github.com/gtkottman/mortiflix-oss",
-  "https://github.com/fayazara/robot-heads",
-  "https://huggingface.co/facebook/sam3",
-  "https://huggingface.co/google/embeddinggemma-2",
-  "https://huggingface.co/davidau/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf",
   "https://arxiv.org/abs/2609.39566",
   "https://arxiv.org/abs/2610.13316",
   "https://arxiv.org/abs/2610.12572",
@@ -151,6 +141,16 @@
   "https://github.com/kukemc/bili-cli",
   "https://huggingface.co/orcarouter/deepseek-v4.1-flash-1017-abliterated-gguf",
   "https://huggingface.co/datalab-to/indra-ocr",
-  "https://huggingface.co/orcarouter/orcacyber-nano-1.0"
+  "https://huggingface.co/orcarouter/orcacyber-nano-1.0",
+  "https://arxiv.org/abs/2610.27782",
+  "https://arxiv.org/abs/2610.01352",
+  "https://arxiv.org/abs/2610.23234",
+  "https://arxiv.org/abs/2610.29552",
+  "https://arxiv.org/abs/2610.31066",
+  "https://github.com/klarluft/pitupitu",
+  "https://github.com/liyupi/dafeiyu-cleaner",
+  "https://github.com/charonyuu/whatsmyagentdoing",
+  "https://huggingface.co/nanbeige/nanbeige4.3-33b",
+  "https://huggingface.co/ista-daslab/deepseek-v4.1-flash-1017-gsq-rco-gguf"
  ]
 }
