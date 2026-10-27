@@ -1,17 +1,7 @@
 {
- "issue": 20,
- "last_run": "2026-10-26",
+ "issue": 21,
+ "last_run": "2026-10-27",
  "sent_canon": [
-  "https://arxiv.org/abs/2609.39566",
-  "https://arxiv.org/abs/2610.13316",
-  "https://arxiv.org/abs/2610.12572",
-  "https://arxiv.org/abs/2610.12569",
-  "https://github.com/nexilume-ai/nexus-cloud",
-  "https://github.com/nousresearch/hermes-official-plugins",
-  "https://github.com/deeplethe/fde-gym",
-  "https://huggingface.co/baidu/unlimited-ocr",
-  "https://huggingface.co/abenzerps/qwen-image-2.1-uncensored-quantized",
-  "https://huggingface.co/jialinyyzz/humanizer",
   "https://arxiv.org/abs/2610.13361",
   "https://arxiv.org/abs/2610.08966",
   "https://arxiv.org/abs/2610.12453",
@@ -151,6 +141,16 @@
   "https://github.com/liyupi/dafeiyu-cleaner",
   "https://github.com/charonyuu/whatsmyagentdoing",
   "https://huggingface.co/nanbeige/nanbeige4.3-33b",
-  "https://huggingface.co/ista-daslab/deepseek-v4.1-flash-1017-gsq-rco-gguf"
+  "https://huggingface.co/ista-daslab/deepseek-v4.1-flash-1017-gsq-rco-gguf",
+  "https://arxiv.org/abs/2610.34467",
+  "https://arxiv.org/abs/2610.35385",
+  "https://arxiv.org/abs/2610.33845",
+  "https://arxiv.org/abs/2610.33503",
+  "https://github.com/hvftpie13/flashmind_gemini-3.8-flash_smart-agent",
+  "https://github.com/sonicloudtech/mouse-mcp",
+  "https://github.com/memoair-labs/airlink",
+  "https://huggingface.co/facebook/sam3",
+  "https://huggingface.co/google/embeddinggemma-2",
+  "https://huggingface.co/davidau/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf"
  ]
 }
