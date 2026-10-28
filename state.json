@@ -1,17 +1,7 @@
 {
- "issue": 21,
- "last_run": "2026-10-27",
+ "issue": 22,
+ "last_run": "2026-10-28",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.13361",
-  "https://arxiv.org/abs/2610.08966",
-  "https://arxiv.org/abs/2610.12453",
-  "https://arxiv.org/abs/2610.11765",
-  "https://github.com/computeruseagent/autocua",
-  "https://github.com/iamumeransari/claude-show-your-work",
-  "https://github.com/atoll92/agent-standup",
-  "https://huggingface.co/qwen/qwen-image-2.1-turbo",
-  "https://huggingface.co/aleph-alpha/kolibri-1",
-  "https://huggingface.co/orcarouter/qwen3.8-flash-next-uncensored-gguf",
   "https://arxiv.org/abs/2610.17953",
   "https://arxiv.org/abs/2610.18092",
   "https://arxiv.org/abs/2610.17656",
@@ -151,6 +141,16 @@
   "https://github.com/memoair-labs/airlink",
   "https://huggingface.co/facebook/sam3",
   "https://huggingface.co/google/embeddinggemma-2",
-  "https://huggingface.co/davidau/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf"
+  "https://huggingface.co/davidau/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp-gguf",
+  "https://arxiv.org/abs/2602.10657",
+  "https://arxiv.org/abs/2610.36466",
+  "https://arxiv.org/abs/2610.35864",
+  "https://arxiv.org/abs/2610.37666",
+  "https://github.com/zichuanlan/agent-purge",
+  "https://github.com/qybaihe/bla",
+  "https://github.com/daveebbelaar/bama",
+  "https://huggingface.co/abenzerps/qwen-image-2.1-uncensored-quantized",
+  "https://huggingface.co/ccore/qwen3.5-4b-3d-coder",
+  "https://huggingface.co/nvidia/nvidia-nemotron-3.5-bolt-e4b-4gb"
  ]
 }
