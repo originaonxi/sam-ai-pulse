@@ -1,17 +1,7 @@
 {
- "issue": 22,
- "last_run": "2026-10-28",
+ "issue": 23,
+ "last_run": "2026-10-29",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.17953",
-  "https://arxiv.org/abs/2610.18092",
-  "https://arxiv.org/abs/2610.17656",
-  "https://arxiv.org/abs/2610.17540",
-  "https://github.com/onehumanbeing/esp32-iphone-agent",
-  "https://github.com/mw00/project-maya",
-  "https://github.com/hujjun/mcd-saver-strategist",
-  "https://huggingface.co/ista-daslab/qwen3.8-flash-next-gsq-rco-gguf",
-  "https://huggingface.co/dealignai/deepseek-v4.1-flash-uncensored-fp8",
-  "https://huggingface.co/autotrust/jev-35b",
   "https://arxiv.org/abs/2610.18861",
   "https://arxiv.org/abs/2610.19560",
   "https://arxiv.org/abs/2610.20431",
@@ -151,6 +141,16 @@
   "https://github.com/daveebbelaar/bama",
   "https://huggingface.co/abenzerps/qwen-image-2.1-uncensored-quantized",
   "https://huggingface.co/ccore/qwen3.5-4b-3d-coder",
-  "https://huggingface.co/nvidia/nvidia-nemotron-3.5-bolt-e4b-4gb"
+  "https://huggingface.co/nvidia/nvidia-nemotron-3.5-bolt-e4b-4gb",
+  "https://arxiv.org/abs/2610.30132",
+  "https://arxiv.org/abs/2610.30435",
+  "https://arxiv.org/abs/2610.37364",
+  "https://arxiv.org/abs/2610.29702",
+  "https://github.com/davemessew/agentflux",
+  "https://github.com/channelcooperstart/capri-ai",
+  "https://github.com/ccch1mneyyy/dsh-go",
+  "https://huggingface.co/nvidia/nvidia-nemotron-3.5-transcribe-30b-a4b",
+  "https://huggingface.co/tencent/hy-simulmt-30b-a3b-fp8",
+  "https://huggingface.co/liquidai/lfm3-1.7b"
  ]
 }
