@@ -1,17 +1,7 @@
 {
- "issue": 24,
- "last_run": "2026-10-30",
+ "issue": 25,
+ "last_run": "2026-10-31",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.22322",
-  "https://arxiv.org/abs/2610.21910",
-  "https://arxiv.org/abs/2610.22344",
-  "https://arxiv.org/abs/2610.22174",
-  "https://github.com/pullboard-dev/pullboard",
-  "https://github.com/souravberaakaspeed/xiryn",
-  "https://github.com/sisyphuslabs/omo-dori-mode-experimental",
-  "https://huggingface.co/nerkyor/qwen3.8-27b-coder390-efficientthink-opus5.5-gpt6astra-grok4.7-dsv4pro-k3-sft-rloo-mtp-dflash2",
-  "https://huggingface.co/fishaudio/drama-3",
-  "https://huggingface.co/pablodawson/minimax-h3-360-orbit-lora",
   "https://arxiv.org/abs/2610.22280",
   "https://arxiv.org/abs/2610.22200",
   "https://arxiv.org/abs/2610.20939",
@@ -151,6 +141,16 @@
   "https://github.com/jmanico/grim-prompter",
   "https://huggingface.co/mistralai/mistral-large-4-1t-a52b",
   "https://huggingface.co/sc117/qwen3.8-flash-next-gsq-rco-abliterated-gguf",
-  "https://huggingface.co/baidu/unlimited-ocr-2"
+  "https://huggingface.co/baidu/unlimited-ocr-2",
+  "https://arxiv.org/abs/2610.23656",
+  "https://arxiv.org/abs/2609.05881",
+  "https://arxiv.org/abs/2610.39664",
+  "https://arxiv.org/abs/2610.38681",
+  "https://arxiv.org/abs/2610.35138",
+  "https://github.com/n1neman/sapper-v2",
+  "https://github.com/jackwener/dsh-android",
+  "https://github.com/mutonby/agentring",
+  "https://huggingface.co/openbmb/minicpm-ocr-1.0",
+  "https://huggingface.co/liquidai/lfm3-omni-2b"
  ]
 }
