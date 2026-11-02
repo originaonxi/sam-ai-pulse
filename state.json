@@ -1,17 +1,7 @@
 {
- "issue": 26,
- "last_run": "2026-11-01",
+ "issue": 27,
+ "last_run": "2026-11-02",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.16105",
-  "https://arxiv.org/abs/2610.21306",
-  "https://arxiv.org/abs/2610.22127",
-  "https://arxiv.org/abs/2610.19397",
-  "https://github.com/licincan/blender-ai-mcp-addon",
-  "https://github.com/vakandi/opencode-rust",
-  "https://github.com/leonxlnx/earshot",
-  "https://huggingface.co/nvidia/qwen3.8-flash-next-fp4-local",
-  "https://huggingface.co/liquidai/lfm2.5-24b-a2b",
-  "https://huggingface.co/openbmb/minicpm-v-4.7-1b",
   "https://arxiv.org/abs/2610.21082",
   "https://arxiv.org/abs/2610.22602",
   "https://arxiv.org/abs/2610.17184",
@@ -151,6 +141,16 @@
   "https://github.com/wangzan101/mika",
   "https://huggingface.co/diffuspace/clover-35b-a3b-preview",
   "https://huggingface.co/pika-labs/pika-h3-flex",
-  "https://huggingface.co/speridlabs/idol"
+  "https://huggingface.co/speridlabs/idol",
+  "https://arxiv.org/abs/2610.40799",
+  "https://arxiv.org/abs/2610.42149",
+  "https://arxiv.org/abs/2610.42141",
+  "https://arxiv.org/abs/2610.37481",
+  "https://github.com/aa1143/namiagent",
+  "https://github.com/wanghao-sunsky/cs329z-chinese",
+  "https://github.com/eduwxyz/tucano",
+  "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017",
+  "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+  "https://huggingface.co/obliteratus/deepseek-v4.1-flash-1017-obliterated"
  ]
 }
