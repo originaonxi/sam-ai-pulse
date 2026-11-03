@@ -1,17 +1,7 @@
 {
- "issue": 27,
- "last_run": "2026-11-02",
+ "issue": 28,
+ "last_run": "2026-11-03",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.21082",
-  "https://arxiv.org/abs/2610.22602",
-  "https://arxiv.org/abs/2610.17184",
-  "https://arxiv.org/abs/2610.09872",
-  "https://github.com/graphicle-ai/graphicle",
-  "https://github.com/feder-cr/git-ai",
-  "https://github.com/ayzzz123/mcd-coupon-strategist",
-  "https://huggingface.co/black-forest-labs/flux-3-image-klein",
-  "https://huggingface.co/openmoss-team/moss-image-sft",
-  "https://huggingface.co/vllm-sr/d3",
   "https://arxiv.org/abs/2610.26860",
   "https://arxiv.org/abs/2610.06830",
   "https://arxiv.org/abs/2610.25950",
@@ -151,6 +141,16 @@
   "https://github.com/eduwxyz/tucano",
   "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017",
   "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-  "https://huggingface.co/obliteratus/deepseek-v4.1-flash-1017-obliterated"
+  "https://huggingface.co/obliteratus/deepseek-v4.1-flash-1017-obliterated",
+  "https://arxiv.org/abs/2611.03097",
+  "https://arxiv.org/abs/2610.37826",
+  "https://arxiv.org/abs/2610.40293",
+  "https://arxiv.org/abs/2610.35219",
+  "https://github.com/balanov/skein",
+  "https://github.com/emanuele-em/kanzo",
+  "https://github.com/exzade/exza-remote",
+  "https://huggingface.co/fusioncow/sulphur-3",
+  "https://huggingface.co/atomicchat/deepseek-v4.1-flash-1017-uncensored-gsq-rco-gguf",
+  "https://momentic.ai"
  ]
 }
