@@ -1,17 +1,7 @@
 {
- "issue": 29,
- "last_run": "2026-11-04",
+ "issue": 30,
+ "last_run": "2026-11-05",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.28601",
-  "https://arxiv.org/abs/2610.28354",
-  "https://arxiv.org/abs/2610.28444",
-  "https://arxiv.org/abs/2610.24628",
-  "https://github.com/justxor/deepseek-local-guide-ru",
-  "https://github.com/eliasbiondo/antirion",
-  "https://github.com/zhuyansen/new-term-radar",
-  "https://huggingface.co/openmoss-team/moss-image-base",
-  "https://huggingface.co/comfy-org/moss-image",
-  "https://huggingface.co/nvidia/nvidia-nemotron-labs-dory1.0-4b-bf16",
   "https://arxiv.org/abs/2610.30108",
   "https://arxiv.org/abs/2610.26828",
   "https://arxiv.org/abs/2610.28589",
@@ -151,6 +141,16 @@
   "https://github.com/khanh020905/my-office",
   "https://huggingface.co/abenzerps/qwen-image-2.1-turbo-quantized",
   "https://huggingface.co/unsloth/deepseek-v4.1-flash-1017-gguf",
-  "https://huggingface.co/microsoft/mage-vl-cowork"
+  "https://huggingface.co/microsoft/mage-vl-cowork",
+  "https://arxiv.org/abs/2611.05345",
+  "https://arxiv.org/abs/2611.03517",
+  "https://arxiv.org/abs/2611.01926",
+  "https://arxiv.org/abs/2611.05304",
+  "https://github.com/sksarvesh007/antiglaude",
+  "https://github.com/interactive-active-ai/nexttransformer",
+  "https://github.com/duyunzhoudyz/dyz-med-paper-skills",
+  "https://huggingface.co/moonshotai/kimi-k3.1-pro",
+  "https://huggingface.co/nvidia/deepseek-v4.1-flash-1017-nvfp4",
+  "https://huggingface.co/sensenova/sensenova-loop-9b-preview"
  ]
 }
