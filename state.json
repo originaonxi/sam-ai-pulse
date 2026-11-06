@@ -1,17 +1,7 @@
 {
- "issue": 30,
- "last_run": "2026-11-05",
+ "issue": 31,
+ "last_run": "2026-11-06",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.30108",
-  "https://arxiv.org/abs/2610.26828",
-  "https://arxiv.org/abs/2610.28589",
-  "https://arxiv.org/abs/2610.28763",
-  "https://arxiv.org/abs/2610.29722",
-  "https://github.com/umair/stalemap",
-  "https://github.com/reacher-z/awesome-cua",
-  "https://github.com/azrinaldi/gemini-stealth-bridge",
-  "https://huggingface.co/recursivesi/flint",
-  "https://huggingface.co/dealignai/deepseek-v4.1-flash-1017-uncensored-fp8",
   "https://arxiv.org/abs/2610.31494",
   "https://arxiv.org/abs/2610.26836",
   "https://arxiv.org/abs/2610.27233",
@@ -151,6 +141,16 @@
   "https://github.com/duyunzhoudyz/dyz-med-paper-skills",
   "https://huggingface.co/moonshotai/kimi-k3.1-pro",
   "https://huggingface.co/nvidia/deepseek-v4.1-flash-1017-nvfp4",
-  "https://huggingface.co/sensenova/sensenova-loop-9b-preview"
+  "https://huggingface.co/sensenova/sensenova-loop-9b-preview",
+  "https://arxiv.org/abs/2611.03330",
+  "https://arxiv.org/abs/2611.03743",
+  "https://arxiv.org/abs/2611.03852",
+  "https://arxiv.org/abs/2611.07298",
+  "https://github.com/glen-web-app/best-agent-memory-mcp",
+  "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
+  "https://github.com/josssphzhou/poki",
+  "https://huggingface.co/unsloth/qwen3.8-flash-next-gguf",
+  "https://huggingface.co/xiaomi-research/xiaomi-ocr-0",
+  "https://huggingface.co/edge0/audio8-tts-realistic-air"
  ]
 }
