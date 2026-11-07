@@ -1,17 +1,7 @@
 {
- "issue": 31,
- "last_run": "2026-11-06",
+ "issue": 32,
+ "last_run": "2026-11-07",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.31494",
-  "https://arxiv.org/abs/2610.26836",
-  "https://arxiv.org/abs/2610.27233",
-  "https://arxiv.org/abs/2610.30755",
-  "https://github.com/entelligence-ai/agentplay",
-  "https://github.com/rextail-ai/lessloc",
-  "https://github.com/startluxlabs/decisionpivot",
-  "https://huggingface.co/qwen/qwen3.8-27b",
-  "https://huggingface.co/lightricks/ltx-2.5",
-  "https://huggingface.co/qwen/qwen3.8-flash-next",
   "https://arxiv.org/abs/2610.24383",
   "https://arxiv.org/abs/2610.30418",
   "https://arxiv.org/abs/2610.30043",
@@ -151,6 +141,16 @@
   "https://github.com/josssphzhou/poki",
   "https://huggingface.co/unsloth/qwen3.8-flash-next-gguf",
   "https://huggingface.co/xiaomi-research/xiaomi-ocr-0",
-  "https://huggingface.co/edge0/audio8-tts-realistic-air"
+  "https://huggingface.co/edge0/audio8-tts-realistic-air",
+  "https://arxiv.org/abs/2611.08483",
+  "https://arxiv.org/abs/2611.06500",
+  "https://arxiv.org/abs/2611.02075",
+  "https://arxiv.org/abs/2611.06817",
+  "https://github.com/yc-software/minecraft-agent-harness",
+  "https://github.com/shanselman/sandbox-mcp",
+  "https://github.com/jefferysha0627/agent-office-3d",
+  "https://huggingface.co/xtools-at/deepseek-v4-pro-qwen3.5-9b-uncensored-heretic",
+  "https://huggingface.co/burner22/numbat",
+  "https://huggingface.co/ricursiveai/ripple-65b-preview"
  ]
 }
