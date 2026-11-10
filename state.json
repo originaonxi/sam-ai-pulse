@@ -1,17 +1,7 @@
 {
- "issue": 34,
- "last_run": "2026-11-09",
+ "issue": 35,
+ "last_run": "2026-11-10",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.27782",
-  "https://arxiv.org/abs/2610.01352",
-  "https://arxiv.org/abs/2610.23234",
-  "https://arxiv.org/abs/2610.29552",
-  "https://arxiv.org/abs/2610.31066",
-  "https://github.com/klarluft/pitupitu",
-  "https://github.com/liyupi/dafeiyu-cleaner",
-  "https://github.com/charonyuu/whatsmyagentdoing",
-  "https://huggingface.co/nanbeige/nanbeige4.3-33b",
-  "https://huggingface.co/ista-daslab/deepseek-v4.1-flash-1017-gsq-rco-gguf",
   "https://arxiv.org/abs/2610.34467",
   "https://arxiv.org/abs/2610.35385",
   "https://arxiv.org/abs/2610.33845",
@@ -151,6 +141,16 @@
   "https://github.com/glincker/awesome-selfhosted-ai",
   "https://huggingface.co/autotrust/qwen3.8-flash-next-e384-fp4-v2",
   "https://huggingface.co/scantist/glm-5.3-slim-gguf",
-  "https://huggingface.co/mradermacher/deepseek-v4-pro-qwen3.5-9b-uncensored-heretic-i1-gguf"
+  "https://huggingface.co/mradermacher/deepseek-v4-pro-qwen3.5-9b-uncensored-heretic-i1-gguf",
+  "https://arxiv.org/abs/2611.08935",
+  "https://arxiv.org/abs/2610.36980",
+  "https://arxiv.org/abs/2611.02810",
+  "https://arxiv.org/abs/2611.05791",
+  "https://arxiv.org/abs/2611.09891",
+  "https://github.com/sshah03/recalc",
+  "https://github.com/nanoutrolley/roblox-studio-mcp",
+  "https://github.com/zaxiu88888/issue-rag",
+  "https://huggingface.co/ccore/qwen3.5-4b-glb-3d-coder",
+  "https://huggingface.co/webai-official/twil-8b"
  ]
 }
