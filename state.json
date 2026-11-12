@@ -1,17 +1,7 @@
 {
- "issue": 36,
- "last_run": "2026-11-11",
+ "issue": 37,
+ "last_run": "2026-11-12",
  "sent_canon": [
-  "https://arxiv.org/abs/2602.10657",
-  "https://arxiv.org/abs/2610.36466",
-  "https://arxiv.org/abs/2610.35864",
-  "https://arxiv.org/abs/2610.37666",
-  "https://github.com/zichuanlan/agent-purge",
-  "https://github.com/qybaihe/bla",
-  "https://github.com/daveebbelaar/bama",
-  "https://huggingface.co/abenzerps/qwen-image-2.1-uncensored-quantized",
-  "https://huggingface.co/ccore/qwen3.5-4b-3d-coder",
-  "https://huggingface.co/nvidia/nvidia-nemotron-3.5-bolt-e4b-4gb",
   "https://arxiv.org/abs/2610.30132",
   "https://arxiv.org/abs/2610.30435",
   "https://arxiv.org/abs/2610.37364",
@@ -151,6 +141,16 @@
   "https://github.com/alexeyw/lot-map",
   "https://github.com/glen-web-app/best-memory-plugins",
   "https://huggingface.co/minimaxai/minimax-h3-image",
-  "https://huggingface.co/prunaai/p-h3-image-comfy"
+  "https://huggingface.co/prunaai/p-h3-image-comfy",
+  "https://arxiv.org/abs/2611.14115",
+  "https://arxiv.org/abs/2611.12177",
+  "https://arxiv.org/abs/2611.13410",
+  "https://arxiv.org/abs/2611.12304",
+  "https://github.com/agentes-chat/agentes-chat",
+  "https://github.com/huawei-csl/macaq",
+  "https://github.com/onlyreadai/onlyread",
+  "https://huggingface.co/qwen/qwen3.8-flash-next",
+  "https://huggingface.co/minimaxai/minimax-h3",
+  "https://huggingface.co/facebook/sam3"
  ]
 }
