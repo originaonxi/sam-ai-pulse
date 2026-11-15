@@ -1,17 +1,7 @@
 {
- "issue": 39,
- "last_run": "2026-11-14",
+ "issue": 40,
+ "last_run": "2026-11-15",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.23656",
-  "https://arxiv.org/abs/2609.05881",
-  "https://arxiv.org/abs/2610.39664",
-  "https://arxiv.org/abs/2610.38681",
-  "https://arxiv.org/abs/2610.35138",
-  "https://github.com/n1neman/sapper-v2",
-  "https://github.com/jackwener/dsh-android",
-  "https://github.com/mutonby/agentring",
-  "https://huggingface.co/openbmb/minicpm-ocr-1.0",
-  "https://huggingface.co/liquidai/lfm3-omni-2b",
   "https://arxiv.org/abs/2610.38342",
   "https://arxiv.org/abs/2610.36420",
   "https://arxiv.org/abs/2610.33106",
@@ -151,6 +141,16 @@
   "https://github.com/tealagentrevive/ai--manus",
   "https://huggingface.co/huihui-ai/huihui-qwen3.8-27b-abliterated-gguf",
   "https://huggingface.co/davidau/qwen3.5-9b-the-defiant-fable-uncensored-heretic-neo-imatrix-max-mtp-gguf",
-  "https://huggingface.co/ccore/qwen3.5-4b-3d-coder"
+  "https://huggingface.co/ccore/qwen3.5-4b-3d-coder",
+  "https://arxiv.org/abs/2611.12872",
+  "https://arxiv.org/abs/2611.17334",
+  "https://arxiv.org/abs/2611.16728",
+  "https://arxiv.org/abs/2611.15094",
+  "https://github.com/racdeufindurch198812/blender-ai-mcp-studio",
+  "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+  "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+  "https://huggingface.co/conceptcountry/qwen-concept-27b",
+  "https://huggingface.co/comfy-org/minimax-h3-image",
+  "https://huggingface.co/chatrlabs/qwen-image-2.1-uncensored-omni-quantized"
  ]
 }
