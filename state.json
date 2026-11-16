@@ -1,17 +1,7 @@
 {
- "issue": 40,
- "last_run": "2026-11-15",
+ "issue": 41,
+ "last_run": "2026-11-16",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.38342",
-  "https://arxiv.org/abs/2610.36420",
-  "https://arxiv.org/abs/2610.33106",
-  "https://arxiv.org/abs/2610.38293",
-  "https://github.com/modelflare-ai/anymodelbot",
-  "https://github.com/muaaz9329/cheap-ag",
-  "https://github.com/wangzan101/mika",
-  "https://huggingface.co/diffuspace/clover-35b-a3b-preview",
-  "https://huggingface.co/pika-labs/pika-h3-flex",
-  "https://huggingface.co/speridlabs/idol",
   "https://arxiv.org/abs/2610.40799",
   "https://arxiv.org/abs/2610.42149",
   "https://arxiv.org/abs/2610.42141",
@@ -151,6 +141,16 @@
   "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
   "https://huggingface.co/conceptcountry/qwen-concept-27b",
   "https://huggingface.co/comfy-org/minimax-h3-image",
-  "https://huggingface.co/chatrlabs/qwen-image-2.1-uncensored-omni-quantized"
+  "https://huggingface.co/chatrlabs/qwen-image-2.1-uncensored-omni-quantized",
+  "https://arxiv.org/abs/2611.17955",
+  "https://arxiv.org/abs/2611.17820",
+  "https://arxiv.org/abs/2611.18359",
+  "https://arxiv.org/abs/2611.06866",
+  "https://github.com/dodaios/ste80-humanizer",
+  "https://github.com/zovulrira1974/blender-ai-copilot-assets",
+  "https://github.com/doug-218/blender-ai-copilot-forge",
+  "https://huggingface.co/hauhaucs/qwen3.8-27b-uncensored-hauhaucs-aggressive-mtp-gguf",
+  "https://huggingface.co/edge0/edge0-145b-nvfp4",
+  "https://huggingface.co/zyphra/zonos3-mini"
  ]
 }
