@@ -1,17 +1,7 @@
 {
- "issue": 41,
- "last_run": "2026-11-16",
+ "issue": 42,
+ "last_run": "2026-11-17",
  "sent_canon": [
-  "https://arxiv.org/abs/2610.40799",
-  "https://arxiv.org/abs/2610.42149",
-  "https://arxiv.org/abs/2610.42141",
-  "https://arxiv.org/abs/2610.37481",
-  "https://github.com/aa1143/namiagent",
-  "https://github.com/wanghao-sunsky/cs329z-chinese",
-  "https://github.com/eduwxyz/tucano",
-  "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017",
-  "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-  "https://huggingface.co/obliteratus/deepseek-v4.1-flash-1017-obliterated",
   "https://arxiv.org/abs/2611.03097",
   "https://arxiv.org/abs/2610.37826",
   "https://arxiv.org/abs/2610.40293",
@@ -151,6 +141,16 @@
   "https://github.com/doug-218/blender-ai-copilot-forge",
   "https://huggingface.co/hauhaucs/qwen3.8-27b-uncensored-hauhaucs-aggressive-mtp-gguf",
   "https://huggingface.co/edge0/edge0-145b-nvfp4",
-  "https://huggingface.co/zyphra/zonos3-mini"
+  "https://huggingface.co/zyphra/zonos3-mini",
+  "https://arxiv.org/abs/2611.17933",
+  "https://arxiv.org/abs/2611.16661",
+  "https://arxiv.org/abs/2611.21607",
+  "https://arxiv.org/abs/2611.21003",
+  "https://github.com/sybil-solutions/inference-optimisation-skill",
+  "https://github.com/hridaya423/phonedriver",
+  "https://github.com/fumbdendade19718/blender-ai-copilot-desk",
+  "https://huggingface.co/pyannote/speaker-diarization-3.1",
+  "https://huggingface.co/speridlabs/idol",
+  "https://huggingface.co/thinkingmachines/inkling-2-small"
  ]
 }
