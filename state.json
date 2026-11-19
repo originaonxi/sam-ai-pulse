@@ -1,17 +1,7 @@
 {
- "issue": 43,
- "last_run": "2026-11-18",
+ "issue": 44,
+ "last_run": "2026-11-19",
  "sent_canon": [
-  "https://arxiv.org/abs/2611.05193",
-  "https://arxiv.org/abs/2611.04418",
-  "https://arxiv.org/abs/2611.05280",
-  "https://arxiv.org/abs/2611.03998",
-  "https://github.com/kkkkhazix/agent-autoloop",
-  "https://github.com/faixiang/moodle-mcp",
-  "https://github.com/khanh020905/my-office",
-  "https://huggingface.co/abenzerps/qwen-image-2.1-turbo-quantized",
-  "https://huggingface.co/unsloth/deepseek-v4.1-flash-1017-gguf",
-  "https://huggingface.co/microsoft/mage-vl-cowork",
   "https://arxiv.org/abs/2611.05345",
   "https://arxiv.org/abs/2611.03517",
   "https://arxiv.org/abs/2611.01926",
@@ -151,6 +141,16 @@
   "https://github.com/peshiemaina21/telegram-news-autopilot",
   "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash-1017",
   "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-  "https://github.com/runanywhereai/trnrt"
+  "https://github.com/runanywhereai/trnrt",
+  "https://arxiv.org/abs/2611.24161",
+  "https://arxiv.org/abs/2611.24362",
+  "https://arxiv.org/abs/2611.22033",
+  "https://arxiv.org/abs/2611.19200",
+  "https://github.com/baiblinocun1986/blender-ai-copilot-hub",
+  "https://github.com/boringmarketer/boring-marketing-skills",
+  "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
+  "https://huggingface.co/higurashi-ai/haru-4b",
+  "https://huggingface.co/harness-hub/qwen3.8-27b-pi-adapted",
+  "https://huggingface.co/nvidia/nvidia-nemotron-3.5-bolt-e4b-4gb"
  ]
 }
