@@ -1,17 +1,7 @@
 {
- "issue": 47,
- "last_run": "2026-11-22",
+ "issue": 48,
+ "last_run": "2026-11-23",
  "sent_canon": [
-  "https://arxiv.org/abs/2611.08369",
-  "https://arxiv.org/abs/2611.00883",
-  "https://arxiv.org/abs/2610.37739",
-  "https://arxiv.org/abs/2611.08237",
-  "https://github.com/gogoymh/auto-ontology-mcp",
-  "https://github.com/imsai-sh/fish-pocket",
-  "https://github.com/lanqiao-luca/ai-java-workflow",
-  "https://huggingface.co/qwen/qwen3.8-27b",
-  "https://huggingface.co/lightricks/ltx-2.5",
-  "https://huggingface.co/nousresearch/arete-27b",
   "https://arxiv.org/abs/2611.06844",
   "https://arxiv.org/abs/2611.07461",
   "https://arxiv.org/abs/2611.09113",
@@ -151,6 +141,16 @@
   "https://github.com/ysunyang4/nexus",
   "https://huggingface.co/unsloth/inkling-2-mini-gguf",
   "https://huggingface.co/sulphurai/sulphur-3",
-  "https://huggingface.co/inworld/voice-isolator"
+  "https://huggingface.co/inworld/voice-isolator",
+  "https://arxiv.org/abs/2611.25252",
+  "https://arxiv.org/abs/2611.26613",
+  "https://arxiv.org/abs/2611.15449",
+  "https://arxiv.org/abs/2611.21485",
+  "https://github.com/tthanh2k6/turbo-browser-mcp",
+  "https://github.com/seira-bot/seira",
+  "https://github.com/pierridotite/mobile-agent-testers",
+  "https://huggingface.co/tenstrip/10eros-max",
+  "https://huggingface.co/apple/depthpro2",
+  "https://huggingface.co/atomicchat/inkling-2-mini-uncensored-gguf"
  ]
 }
