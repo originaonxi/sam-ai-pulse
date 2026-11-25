@@ -1,17 +1,7 @@
 {
- "issue": 49,
- "last_run": "2026-11-24",
+ "issue": 50,
+ "last_run": "2026-11-25",
  "sent_canon": [
-  "https://arxiv.org/abs/2611.08935",
-  "https://arxiv.org/abs/2610.36980",
-  "https://arxiv.org/abs/2611.02810",
-  "https://arxiv.org/abs/2611.05791",
-  "https://arxiv.org/abs/2611.09891",
-  "https://github.com/sshah03/recalc",
-  "https://github.com/nanoutrolley/roblox-studio-mcp",
-  "https://github.com/zaxiu88888/issue-rag",
-  "https://huggingface.co/ccore/qwen3.5-4b-glb-3d-coder",
-  "https://huggingface.co/webai-official/twil-8b",
   "https://arxiv.org/abs/2611.10649",
   "https://arxiv.org/abs/2611.14210",
   "https://arxiv.org/abs/2611.10866",
@@ -151,6 +141,16 @@
   "https://github.com/developing-gamer/agent-sim",
   "https://huggingface.co/qwen/qwen3.8-27b",
   "https://huggingface.co/lightricks/ltx-2.5",
-  "https://huggingface.co/radixark/daisyrose-27b"
+  "https://huggingface.co/radixark/daisyrose-27b",
+  "https://arxiv.org/abs/2611.32649",
+  "https://arxiv.org/abs/2611.31974",
+  "https://arxiv.org/abs/2611.33148",
+  "https://arxiv.org/abs/2611.32884",
+  "https://arxiv.org/abs/2611.31205",
+  "https://github.com/brainintelli/biosignal-guided-llm-reinforcement-learning",
+  "https://github.com/lukcla3889/postman-agent",
+  "https://github.com/mbzuai-oryx/loopedwsp",
+  "https://huggingface.co/baidu/ernie-5.5-flash-preview",
+  "https://huggingface.co/prism-ml/ternary-bonsai-2.5-27b-gguf"
  ]
 }
