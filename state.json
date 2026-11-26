@@ -1,17 +1,7 @@
 {
- "issue": 50,
- "last_run": "2026-11-25",
+ "issue": 51,
+ "last_run": "2026-11-26",
  "sent_canon": [
-  "https://arxiv.org/abs/2611.10649",
-  "https://arxiv.org/abs/2611.14210",
-  "https://arxiv.org/abs/2611.10866",
-  "https://arxiv.org/abs/2611.10015",
-  "https://arxiv.org/abs/2611.12934",
-  "https://github.com/claudememory/claude-memory",
-  "https://github.com/alexeyw/lot-map",
-  "https://github.com/glen-web-app/best-memory-plugins",
-  "https://huggingface.co/minimaxai/minimax-h3-image",
-  "https://huggingface.co/prunaai/p-h3-image-comfy",
   "https://arxiv.org/abs/2611.14115",
   "https://arxiv.org/abs/2611.12177",
   "https://arxiv.org/abs/2611.13410",
@@ -151,6 +141,16 @@
   "https://github.com/lukcla3889/postman-agent",
   "https://github.com/mbzuai-oryx/loopedwsp",
   "https://huggingface.co/baidu/ernie-5.5-flash-preview",
-  "https://huggingface.co/prism-ml/ternary-bonsai-2.5-27b-gguf"
+  "https://huggingface.co/prism-ml/ternary-bonsai-2.5-27b-gguf",
+  "https://arxiv.org/abs/2611.33093",
+  "https://arxiv.org/abs/2611.34750",
+  "https://arxiv.org/abs/2611.30334",
+  "https://arxiv.org/abs/2611.34466",
+  "https://arxiv.org/abs/2611.28244",
+  "https://github.com/nexu-io/opengame",
+  "https://github.com/invertiblematrix/filament",
+  "https://github.com/alesha-pro/llm.asm",
+  "https://huggingface.co/nvidia/nemotron-labs-image-30b-a3b",
+  "https://huggingface.co/nari-labs/qwen3.8-27b-nariq-gguf"
  ]
 }
