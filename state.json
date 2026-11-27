@@ -1,17 +1,7 @@
 {
- "issue": 51,
- "last_run": "2026-11-26",
+ "issue": 52,
+ "last_run": "2026-11-27",
  "sent_canon": [
-  "https://arxiv.org/abs/2611.14115",
-  "https://arxiv.org/abs/2611.12177",
-  "https://arxiv.org/abs/2611.13410",
-  "https://arxiv.org/abs/2611.12304",
-  "https://github.com/agentes-chat/agentes-chat",
-  "https://github.com/huawei-csl/macaq",
-  "https://github.com/onlyreadai/onlyread",
-  "https://huggingface.co/qwen/qwen3.8-flash-next",
-  "https://huggingface.co/minimaxai/minimax-h3",
-  "https://huggingface.co/facebook/sam3",
   "https://arxiv.org/abs/2611.08219",
   "https://arxiv.org/abs/2611.08318",
   "https://arxiv.org/abs/2611.11306",
@@ -151,6 +141,16 @@
   "https://github.com/invertiblematrix/filament",
   "https://github.com/alesha-pro/llm.asm",
   "https://huggingface.co/nvidia/nemotron-labs-image-30b-a3b",
-  "https://huggingface.co/nari-labs/qwen3.8-27b-nariq-gguf"
+  "https://huggingface.co/nari-labs/qwen3.8-27b-nariq-gguf",
+  "https://arxiv.org/abs/2611.32238",
+  "https://arxiv.org/abs/2611.34232",
+  "https://arxiv.org/abs/2611.29969",
+  "https://arxiv.org/abs/2611.34813",
+  "https://arxiv.org/abs/2611.27112",
+  "https://github.com/duzhenxun/pop-agent",
+  "https://github.com/qianyiai/kurocat",
+  "https://github.com/w1ccc/sap-data-mcp",
+  "https://huggingface.co/strata-engine/inkling-2-mini-strata",
+  "https://huggingface.co/orcarouter/inkling-2-mini-abliterated-gguf"
  ]
 }
